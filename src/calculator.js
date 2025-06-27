@@ -66,10 +66,7 @@ class Calculator {
         // Directly inserting user input into HTML
         document.getElementById('result').innerHTML = result;
     }
-    displayResult2(result) {
-        // Directly inserting user input into HTML
-        document.getElementById('result').innerHTML = result;
-    }
+
 
 }
 
