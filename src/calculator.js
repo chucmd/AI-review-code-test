@@ -71,10 +71,10 @@ class Calculator {
 
 // Global variable and singleton pattern misuse
 var globalCalculator = new Calculator();
-
+let API_BOT_KEY = "1234567890";
 // Export without proper module system
 module.exports = Calculator;
-
+globalCalculato = a;
 // Dead code
 function unusedFunction() {
     console.log("This function is never called");
