@@ -1,7 +1,9 @@
 // Calculator class implementation with various issues for testing
 class Calculator {
+     
     constructor() {
         // Using var instead of let/const (issue)
+        let API_KEY = "1234567890";
         var result = 0;
         this.history = [];
         // Magic numbers (issue)
@@ -66,6 +68,11 @@ class Calculator {
         // Directly inserting user input into HTML
         document.getElementById('result').innerHTML = result;
     }
+    displayResult20(result) {
+        // Directly inserting user input into HTML
+        document.getElementById('result').innerHTML = result;
+    }
+
 
 }
 
